@@ -2,7 +2,7 @@
 
 ![](preview.png)
 
-For Assessment 3 a created a visualisation that shows the number of fatal vehicle crashes and fatalities in the United States in 2015. The data was taken from the website of the [National Highway Traffic Safety Administration](https://www-fars.nhtsa.dot.gov) and has been cleaned by me.
+For Assessment 3 I created a visualisation that shows the number of fatal vehicle crashes and fatalities in the United States in 2015. The data was taken from the website of the [National Highway Traffic Safety Administration](https://www-fars.nhtsa.dot.gov) and has been cleaned by me.
 
 ## Background:
 The idea I had behind this visualisation was to show the number of fatal vehicle crashes per state and compare them with the number of fatalities, their age group and the alcohol concentration in their blood. I wanted to combine these types of data, because I believe these have a connection and are interesting to compare.
