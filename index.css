@@ -1,0 +1,115 @@
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	margin-left: 50px;
+	margin-top: 25px;
+	font-family: 'montserrat', arial, sans-serif;
+	font-size: 2rem;
+	font-weight: 300;
+}
+
+/*
+====================
+		US MAP
+====================
+*/
+
+.map .x-axis_map text {
+	font-family: 'montserrat', arial, sans-serif;
+	font-size: 0.75rem;
+	font-weight: 300;
+}
+
+.map > .state > text {
+	fill: #000;
+	font-family: 'montserrat', arial, sans-serif;
+	font-weight: 300;
+	font-size: 0.75em;
+	pointer-events: none;
+}
+
+.map > .state > path {
+	stroke: none;
+}
+
+.map > .state > path:hover {
+	fill: rgba(0, 0, 0, 0.5);
+}
+
+/*
+====================
+		DONUT CHART
+====================
+*/
+
+.donut > text {
+	fill: #000;
+  font-family: 'montserrat', arial, sans-serif;
+  font-weight: 300;
+	font-size: 0.85em;
+  text-anchor: middle;
+}
+
+.donut > text:nth-of-type(1) {
+	font-size: 1em;
+	font-weight: 500;
+}
+
+.arc > text {
+	fill: #fff;
+	font-family: 'montserrat', arial, sans-serif;
+	font-size: 0.75em;
+	font-weight: 300;
+	text-anchor: middle;
+}
+
+#donut_legend text {
+	font-family: 'montserrat', arial, sans-serif;
+	font-size: 0.75em;
+	font-weight: 300;
+}
+
+#donut_legend > text {
+	font-size: 1em;
+}
+
+/*
+====================
+		BAR CHART
+====================
+*/
+
+.barchart .x-axis_bar text {
+	font-family: 'montserrat', arial, sans-serif;
+	font-size: 0.75rem;
+	font-weight: 300;
+}
+
+.barchart .y-axis_bar text {
+	font-family: 'montserrat', arial, sans-serif;
+	font-size: 0.75rem;
+	font-weight: 300;
+}
+
+#tooltip {
+	position: absolute;
+	padding: 1em;
+	background-color: #484949;
+	pointer-events: none;
+	color: #fff;
+	font-family: 'montserrat', arial, sans-serif;
+	font-size: 0.85rem;
+	font-weight: 300;
+}
+
+#tooltip strong {
+	font-weight: 500;
+}
+
+#tooltip.hidden {
+  display: none;
+}
